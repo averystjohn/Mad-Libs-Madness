@@ -12,7 +12,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <body>
@@ -22,21 +21,29 @@
       <form>
         <h2>Pick Your Words</h2>
 
-        <input type="text" placeholder="A Relative" id="relative" label="relative">
+        <label for="relative" class="visually-hidden">Relative</label>
+        <input type="text" placeholder="A Relative" id="relative">
 
-        <input type="text" placeholder="Adjective" id="adjective-1" label="adjective">
+        <label for="adjective-1" class="visually-hidden">Adjective</label>
+        <input type="text" placeholder="Adjective" id="adjective-1">
 
-        <input type="text" placeholder="Adjective" id="adjective-2" label="adjective 2">
+        <label for="adjective-2" class="visually-hidden">Adjective 2</label>
+        <input type="text" placeholder="Adjective" id="adjective-2">
 
+        <label for="adjective-3" class="visually-hidden">Adjective 3</label>
         <input type="text" placeholder="Adjective" id="adjective-3">
 
-        <input type="text" placeholder="A Famous Person" id="famous-person" label="famous person">
+        <label for="famous-person" class="visually-hidden">Famous Person</label>
+        <input type="text" placeholder="A Famous Person" id="famous-person">
 
-        <input type="text" placeholder="Noun" id="noun" label="noun">
+        <label for="noun" class="visually-hidden">Noun</label>
+        <input type="text" placeholder="Noun" id="noun">
 
-        <input type="text" placeholder="A Dessert" id="dessert" label="dessert">
+        <label for="dessert" class="visually-hidden">Dessert</label>
+        <input type="text" placeholder="A Dessert" id="dessert">
 
-        <input type="text" placeholder="Your Pet's Name" id="pet-name" label="Your pet's name">
+        <label for="pet-name" class="visually-hidden">Pet's Name</label>
+        <input type="text" placeholder="Your Pet's Name" id="pet-name">
 
         <button type="button" onclick="generate()">Generate</button>
       </form>
